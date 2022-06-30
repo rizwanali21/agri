@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    background: linear-gradient(to right,#5482ff,#383080);
+    height: 100px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navebar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin: 30px 0 0 180px;
+    
+}
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    margin-right: 170px;
+    margin-top: 20px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+nav ul li a:hover{
+    color: red;
+}
+
+
+.main{
+    width: 80%;
+    height: 1000px;
+    background-color: #383080;
+    color: white;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.color-box{
+    position: absolute;
+    right: 16.75%;
+    top: 0;
+    background: linear-gradient(#5482ff,#383080);
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+    width: 70%;
+    z-index: -1;
+    transform: translateX(150px);
+}
+.add-btn img{
+    width: 35px;
+    margin-bottom: 5px;
+    margin-left: 70px;
+}
+.add-btn{
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.social-links img{
+    height: 13px;
+    margin: 20px;
+    cursor: pointer;
+}
+.social-links{
+    text-align: center;
+    margin-top: -130px;
+    margin-left: 60%;
+}
+
+.footer{
+    background: linear-gradient(#5482ff,#383080);
+    width: 100%;
+    height: 700px;
+    
+    margin-top: 50px;
+}
+
+.footer h5{
+    color: white;
+    padding: 5px;
+    float: right;
+    margin-top: 0px;
+    margin-right: 30px;
+    font-size: 16pt;
+    font-family: calibri;
+    font-weight: bold;
+
+}
+
+
+.f1{
+    width: 100%;
+    height: 150px;
+    background-color:#383080;
+}
+
+.f2{
+    width: 20%;
+    height: 450px;
+    float: left;
+    background: none;
+    margin-top: 50px;
+    margin-left: 4%;
+    color: black;
+}
+.f3{
+    width: 20%;
+    height: 450px;
+    float: left;
+    background: none;
+    margin-top: 50px;
+    margin-left: 4%;
+    color: black;
+}
+.f4{
+    width: 20%;
+    height: 450px;
+    float: left;
+    background: none;
+    margin-top: 50px;
+    margin-left: 4%;
+    color: black;
+}
+.f5{
+    width: 20%;
+    height: 450px;
+    float: left;
+    background: none;
+    margin-top: 50px;
+    margin-left: 4%;
+    color: black;
+}
+.f2 h2{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: white;
+}
+.f2 h2:hover{
+    color: rgb(250, 8, 230);
+}
+
+.f2 h4{
+    margin-left: 40px;
+    color: white;
+}
+.f2 h4:hover{
+    color: rgb(250, 8, 230);
+}
+
+.f3 h2{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: white;
+}
+.f3 h2:hover{
+    color: rgb(250, 8, 230);
+}
+.f3 h4{
+    margin-left: 40px;
+    color: white;
+}
+.f3 h4:hover{
+    color: rgb(250, 8, 230);
+}
+
+
+.f4 h2{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: white;
+}
+.f4 h2:hover{
+    color: rgb(250, 8, 230);
+}
+.f4 h4{
+    margin-left: 40px;
+    color: white;
+}
+.f4 h4:hover{
+    color:rgb(250, 8, 230);
+}
+
+
+.f5 h2{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: white;
+}
+.f5 h2:hover{
+    color: rgb(250, 8, 230);
+}
+
+@media only screen and (max-width:700px){
+    nav ul{
+        width: 100%;
+        background: linear-gradient(#5482ff,#383080);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    
+}
